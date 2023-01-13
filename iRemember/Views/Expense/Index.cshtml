@@ -13,7 +13,7 @@
 <br />
 <div>
     <div style="float:left">
-        <button class="btn btn-primary" onclick="AddEditExpenses(0)">Add Expense</button>
+        <button class="btn btn-primary" onclick="CreateExpense()">Add Expense</button>
         <button class="btn btn-success" onclick="ReportExpense()">Expense Report</button>
     </div>
     <div style="float:right; width:40%;">
@@ -84,6 +84,10 @@
 
 <script>
 
+    var CreateExpense = function(){
+        var url = "/Expense/AddEditExpens ;
+
+    }
     var AddEditExpenses = function (itemId) {
         var url = "/Expense/AddEditExpenses?itemId=" + itemId;
         if (itemId > 0)

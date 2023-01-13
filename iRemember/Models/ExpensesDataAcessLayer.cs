@@ -105,22 +105,22 @@ namespace ExpenseManager.Models
 
             Dictionary<string, decimal> dictMonthlySum = new Dictionary<string, decimal>();
 
-            decimal foodSum = db.ExpenseReport.Where
+            decimal foodSum = (decimal) db.ExpenseReport.Where
                 (cat => cat.Category == "Food" && (cat.ExpenseDate > DateTime.Now.AddMonths(-7)))
                 .Select(cat => cat.Amount)
                 .Sum();
 
-            decimal shoppingSum = db.ExpenseReport.Where
+            decimal shoppingSum = (decimal)db.ExpenseReport.Where
                (cat => cat.Category == "Shopping" && (cat.ExpenseDate > DateTime.Now.AddMonths(-7)))
                .Select(cat => cat.Amount)
                .Sum();
 
-            decimal travelSum = db.ExpenseReport.Where
+            decimal travelSum = (decimal)db.ExpenseReport.Where
                (cat => cat.Category == "Travel" && (cat.ExpenseDate > DateTime.Now.AddMonths(-7)))
                .Select(cat => cat.Amount)
                .Sum();
 
-            decimal healthSum = db.ExpenseReport.Where
+            decimal healthSum = (decimal)db.ExpenseReport.Where
                (cat => cat.Category == "Health" && (cat.ExpenseDate > DateTime.Now.AddMonths(-7)))
                .Select(cat => cat.Amount)
                .Sum();
@@ -141,22 +141,22 @@ namespace ExpenseManager.Models
 
             Dictionary<string, decimal> dictWeeklySum = new Dictionary<string, decimal>();
 
-            decimal foodSum = db.ExpenseReport.Where
+            decimal foodSum = (decimal)db.ExpenseReport.Where
                 (cat => cat.Category == "Food" && (cat.ExpenseDate > DateTime.Now.AddDays(-7)))
                 .Select(cat => cat.Amount)
                 .Sum();
 
-            decimal shoppingSum = db.ExpenseReport.Where
+            decimal shoppingSum = (decimal)db.ExpenseReport.Where
                (cat => cat.Category == "Shopping" && (cat.ExpenseDate > DateTime.Now.AddDays(-28)))
                .Select(cat => cat.Amount)
                .Sum();
 
-            decimal travelSum = db.ExpenseReport.Where
+            decimal travelSum = (decimal)db.ExpenseReport.Where
                (cat => cat.Category == "Travel" && (cat.ExpenseDate > DateTime.Now.AddDays(-28)))
                .Select(cat => cat.Amount)
                .Sum();
 
-            decimal healthSum = db.ExpenseReport.Where
+            decimal healthSum = (decimal)db.ExpenseReport.Where
                (cat => cat.Category == "Health" && (cat.ExpenseDate > DateTime.Now.AddDays(-28)))
                .Select(cat => cat.Amount)
                .Sum();

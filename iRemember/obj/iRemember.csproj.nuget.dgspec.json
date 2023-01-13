@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hamou\\source\\repos\\iRemember\\iRemember\\iRemember.csproj": {}
+    "C:\\Users\\21650\\Source\\Repos\\iRemember\\iRemember\\iRemember.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hamou\\source\\repos\\iRemember\\iRemember\\iRemember.csproj": {
+    "C:\\Users\\21650\\Source\\Repos\\iRemember\\iRemember\\iRemember.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hamou\\source\\repos\\iRemember\\iRemember\\iRemember.csproj",
+        "projectUniqueName": "C:\\Users\\21650\\Source\\Repos\\iRemember\\iRemember\\iRemember.csproj",
         "projectName": "iRemember",
-        "projectPath": "C:\\Users\\hamou\\source\\repos\\iRemember\\iRemember\\iRemember.csproj",
-        "packagesPath": "C:\\Users\\hamou\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hamou\\source\\repos\\iRemember\\iRemember\\obj\\",
+        "projectPath": "C:\\Users\\21650\\Source\\Repos\\iRemember\\iRemember\\iRemember.csproj",
+        "packagesPath": "C:\\Users\\21650\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\21650\\Source\\Repos\\iRemember\\iRemember\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hamou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\21650\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

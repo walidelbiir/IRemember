@@ -35,6 +35,7 @@ namespace ExpenseManager.Controllers
         [HttpPost]
         public ActionResult Create(ExpenseReport newExpense)
         {
+            AddEditExpenses(0);
             if (ModelState.IsValid)
             {
                 if (newExpense.ItemId > 0)
